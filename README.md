@@ -34,22 +34,9 @@ Ein einfaches Datenbankprojekt zur Verwaltung einer kleinen Bücherei. Das Syste
 - Rückgabedatum
 - Rückgegeben (Ja/Nein)
 
-## Erste Schritte
+## Erste Schritte`
 
-1. **Repository klonen**
-   ```bash
-   git clone https://github.com/abfadi/buecherei-db.git
-   cd buecherei-db
-   ```
-
-2. **Datenbank erstellen**
-   - Siehe `schema.sql` für das Datenbankschema.
-   - Beispiel (mit SQLite):
-     ```bash
-     sqlite3 buecherei.db < schema.sql
-     ```
-
-3. **Projekt starten**
+**Projekt starten**
    - Je nach Implementierung (z.B. Python, PHP, etc.) siehe weitere Hinweise in diesem README.
 
 ## Beispiel-SQL-Schema
@@ -119,5 +106,6 @@ GO
 Dieses Projekt steht unter der MIT-Lizenz.
 
 ---
+
 
 **Viel Spaß beim Entwickeln und Verwalten deiner Bücherei!**
